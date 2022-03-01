@@ -6,16 +6,15 @@ Creare una funzione per capire se la parola inserita è palindroma
 
 function function1() {
     let word = document.getElementById(`palindromoText`).value;
-    const wordRevers = [];
     let pluss = 0;
     for (let letter = word.length - 1 ; letter > 0; letter--) {
         
         if ( word[pluss] === word[letter] ) {
-            wordRevers.push( word[letter] )
             pluss++
-            alert("prosegue")
+            document.getElementById(`palindroma`).innerHTML = `la parola ${word} è una parola palindorma`
         }else {
-            alert("non prosegue")
+            document.getElementById(`palindroma`).innerHTML = `la parola ${word} non è una parola palindorma`
+            break;
         }
     }
 }
