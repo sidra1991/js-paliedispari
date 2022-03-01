@@ -35,7 +35,6 @@ Dichiariamo chi ha vinto.
 function function2() {
     let manNumber = document.getElementById(`numero`).value;
     let computerNumber = Math.floor( Math.random()* 6 );
-
     let newNumber = parseInt(manNumber) + parseInt(computerNumber);
     
     if ( newNumber % 2 === 0 ) {
