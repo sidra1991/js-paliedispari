@@ -2,6 +2,89 @@
     text-align: center;
 }
 
-.palindromio {
-    text-align: center;
+.metà {
+    width: 50%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    background-color: aqua;
+}
+
+.bg1{
+    background-image: url(../img/uno.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.bg2{
+    background-image: url(../img/due.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.bg3{
+    background-image: url(../img/tre.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.bg4{
+    background-image: url(../img/quattro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.bg5{
+    background-image: url(../img/cinque.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+
+.bg11{
+    background-image: url(../img/uno.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg22{
+    background-image: url(../img/due.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg33{
+    background-image: url(../img/tre.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg44{
+    background-image: url(../img/quattro.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg55{
+    background-image: url(../img/cinque.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
